@@ -1,0 +1,18 @@
+algorithme palindrome
+ var ch[]:=char;
+ i:=integer;
+ begin 
+ i=0;
+if ch[i] == ch[length(ch)]
+write "word is palindrome "
+else{
+REPEAT
+    i=i+1;
+if (ch[i] =! ch[length(ch)- i+1])
+write "word is not palindrome "
+end if
+UNTIL (i>=length(ch)div2)
+   }
+end
+   
+ 
